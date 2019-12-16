@@ -26,10 +26,10 @@ app.post("/", function(req,res){
   };
  var jsonData = JSON.stringify(data);
   var options = {
-    url : 'https://us4.api.mailchimp.com/3.0/lists/9aea59bfa1',
+    url : 'https://us4.api.mailchimp.com/3.0/lists/*********',
     method : "POST",
     headers: {
-      "Authorization": "seerat1 d23918718ae670916680aca73790ebc3-us4"
+      "Authorization": "**************************************"
     },
     body : jsonData
 
@@ -59,7 +59,4 @@ app.listen(process.env.PORT || 3000,function(){
 });
 
 
-// d23918718ae670916680aca73790ebc3-us4
 
-// Audience // ID
-// 9aea59bfa1
